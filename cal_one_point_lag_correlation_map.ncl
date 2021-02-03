@@ -1,5 +1,5 @@
 ; Author: Dr. Sandro Lubis (Jan 2020)
-;         Calculate one-point lag-correlation maps of the vertically averaged 
+;         Calculate one-point lag correlation of the vertically averaged 
 ;         zonal-mean zonal wind anomalies reconstructed from projections onto two leading EOFs
 ;         Lubis and Hassanzadeh, 2020 JAS (Fig. 1 and Fig. 6)
 ;
