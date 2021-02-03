@@ -1,3 +1,10 @@
+; Author: Dr. Sandro Lubis (Jan 2020)
+;         Calculate one-point lag-correlation maps of the vertically averaged 
+;         zonal-mean zonal wind anomalies reconstructed from projections onto two leading EOFs
+;         Lubis and Hassanzadeh, 2020 JAS (Fig. 1 and Fig. 6)
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 begin
 
 print("Reading the input file...")
@@ -5,33 +12,29 @@ print("Reading the input file...")
 f = addfile("data/u.col.anom.erainterim.nc", "r")
 
 u = f->u(time|:, {lat|-80:-25}, lon|0)
-
 u@_FillValue = -999
+
 
 print("Weighting latitude...")
 
 rad = 4.0 * atan(1.0) / 180.0
 wgt_u = sqrt(cos(u&lat * rad))
-
 u = (/u * conform(u, wgt_u, 1)/)
 
 print("Calculating EOFs...")
 
 neof = 2
-
 eof = eofunc_n_Wrap(u, neof, False, 0)
 pc = eofunc_ts_n_Wrap(u, eof, False, 0)
-
 u = (/eof2data_n(eof, pc, 0)/)
 
 nrun = 21
-
 u = runave_n_Wrap(u, nrun, 0, 0)
+
 
 print("Calculating lag correlation...")
 
 lat_ref = -30.0
-
 maxlag = 60
 lag = ispan(-maxlag, maxlag, 1)
 
@@ -64,6 +67,8 @@ end do
 
 r_u_all = r_u
 r_u = (/where(p_u.le.(0.05), r_u, r_u@_FillValue)/)
+
+
 
 print("Plotting...")
 
