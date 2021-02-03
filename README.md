@@ -12,7 +12,7 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
 
 3. cal_cross_eof_feedbacks.ncl also includes the codes to calculate the periodicity (frequency) and decay time scale of the annular modes from the theory (Eqs. (23) and (24) in Lubis, S. W., & Hassanzadeh, P. (2021)).
 
-4. cal_one_point_lag_correlation_map.ncl includes the codes to calculate one-point lag-correlation maps of the vertically averaged zonal-mean zonal wind anomalies  from year-round ERA-Interim data integrated across the depth of the troposphere (1000–100 hPa) reconstructed from projections onto two leading EOFs.
+4. cal_one_point_lag_correlation_map.ncl includes the codes to calculate one-point lag-correlation maps of the vertically averaged zonal-mean zonal wind anomalies   reconstructed from projections onto two leading EOFs.
 
 <p align="center">
   <img src="https://github.com/sandrolubis/Cross-EOF-Eddy-Feedback-Model/blob/main/one_point_lag_correlation_map.png" width="500">
