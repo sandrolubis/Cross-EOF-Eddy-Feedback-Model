@@ -68,7 +68,6 @@ r_u_all = r_u
 r_u = (/where(p_u.le.(0.05), r_u, r_u@_FillValue)/)
 
 
-
 print("Plotting...")
 
 wks = gsn_open_wks("pdf", "one_point_lag_correlation_map")
