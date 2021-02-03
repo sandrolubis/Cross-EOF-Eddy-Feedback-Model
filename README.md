@@ -6,7 +6,7 @@ The detail of the model can be found here (see Section 3):
 
 Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for Propagating Annular Modes, Journal of the Atmospheric Sciences, 78(1), 249-267. [link](https://journals.ametsoc.org/view/journals/atsc/78/1/jas-d-20-0214.1.xml)
 
-1. Data folder includes the netcdf files of vertically averaged zonal mean zonal wind (u.col.anom.erainterim.nc) and vertically averaged eddy momentum flux convergence (duepy.col.anom.erainterim.nc) from 1000-100 hPa, from ERA-Interim with the period of 1979-2013.
+1. Data folder includes the netcdf files of vertically averaged zonal mean zonal wind (u.col.anom.erainterim.nc) and vertically averaged eddy momentum flux convergence (duepy.col.anom.erainterim.nc), from ERA-Interim with the period of 1979-2013.
 
 2. cal_cross_eof_feedbacks.ncl includes the codes to calculate single-EOF feedbacks (<img src="https://render.githubusercontent.com/render/math?math=b_{11}"> and <img src="https://render.githubusercontent.com/render/math?math=b_{22}">) and cross-EOF feedbacks (<img src="https://render.githubusercontent.com/render/math?math=b_{12}"> and <img src="https://render.githubusercontent.com/render/math?math=b_{21}">) from Eqs. (9) and (10) in Lubis and Hassanzadeh (2021).
 
