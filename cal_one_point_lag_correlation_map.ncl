@@ -2,7 +2,7 @@
 ;         Calculate one-point lag correlation of the vertically averaged 
 ;         zonal-mean zonal wind anomalies reconstructed from projections onto two leading EOFs
 ;         Lubis and Hassanzadeh, 2020 JAS (Fig. 1 and Fig. 6)
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 begin
 
