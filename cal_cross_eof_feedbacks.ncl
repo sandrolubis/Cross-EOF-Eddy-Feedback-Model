@@ -34,6 +34,9 @@ neof = 2
 eof = eofunc_n_Wrap(u, neof, False, 0)
 pc = eofunc_ts_n_Wrap(u, eof, False, 0)
 
+printVarSummary(eof)
+eof(1,:)=eof(1,:)*-1
+
 
 print("Projection...")
 
@@ -79,8 +82,8 @@ end do
 
 b11 = b1(:, 0)
 b12 = b1(:, 1)
-b21 = b2(:, 0) * -1.0
-b22 = b2(:, 1) * -1.0
+b21 = b2(:, 0) 
+b22 = b2(:, 1) 
 
 b11!0 = "lag"
 b11&lag = ispan(0, maxlag, 1)
