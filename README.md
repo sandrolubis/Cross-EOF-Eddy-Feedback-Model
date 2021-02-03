@@ -8,10 +8,9 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
 
 1. Data folder includes the netcdf files of vertically averaged zonal mean zonal wind (u.col.anom.erainterim.nc) and vertically averaged eddy momentum flux convergence (duepy.col.anom.erainterim.nc) from 1000-100 hPa, from ERA-Interim with the period of 1979-2013.
 
-2. cal_cross_eof_feedbacks.ncl includes the codes to calculate single-EOF feedbacks (b11 and b22) and cross-EOF feedbacks (b12 and b21) from Eqs. (9) and (10) in Lubis, S. W., & Hassanzadeh, P. (2021).
+2. cal_cross_eof_feedbacks.ncl includes the codes to calculate single-EOF feedbacks (<img src="https://render.githubusercontent.com/render/math?math=b_{11}"> and <img src="https://render.githubusercontent.com/render/math?math=b_{22}">) and cross-EOF feedbacks (<img src="https://render.githubusercontent.com/render/math?math=b_{12}"> and <img src="https://render.githubusercontent.com/render/math?math=b_{21}">) from Eqs. (9) and (10) in Lubis, S. W., & Hassanzadeh, P. (2021).
 
-<img src="https://render.githubusercontent.com/render/math?math=m_1 = \tilde{m}_1 + b_{11}z_1 + b_{12}z_2">
-<img src="https://render.githubusercontent.com/render/math?math=m_2 = \tilde{m}_2 + b_{21}z_1 + b_{22}z_2">
+3. cal_cross_eof_feedbacks.ncl also includes the codes to calculate the periodicity (frequency) and decay time scale of the annular modes from the theory (Eqs. (23) and (24) in Lubis, S. W., & Hassanzadeh, P. (2021))
 
 ## The basic assumptions of our model are:
 1. A linear representation of the feedbacks is sufficient
