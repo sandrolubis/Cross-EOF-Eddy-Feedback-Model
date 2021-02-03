@@ -14,7 +14,7 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
 
 4. cal_one_point_lag_correlation_map.ncl includes the codes to calculate one-point lag-correlation maps of the vertically averaged zonal-mean zonal wind anomalies  from year-round ERA-Interim data integrated across the depth of the troposphere (1000–100 hPa) reconstructed from projections onto two leading EOFs.
 
-https://github.com/sandrolubis/Cross-EOF-Eddy-Feedback-Model/blob/main/one_point_lag_correlation_map.png?raw=true
+![plot](https://github.com/sandrolubis/Cross-EOF-Eddy-Feedback-Model/blob/main/one_point_lag_correlation_map.png?raw=true)
 
 ## The basic assumptions of our model are:
 1. A linear representation of the feedbacks is sufficient
