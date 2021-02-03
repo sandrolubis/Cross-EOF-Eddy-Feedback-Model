@@ -90,7 +90,7 @@ copy_VarCoords(b11, b21)
 copy_VarCoords(b11, b22)
 
 lagi = 7
-lagf = 14
+lagf = 15
 
 b11_avg = avg(b11({lag|lagi:lagf}))
 b12_avg = avg(b12({lag|lagi:lagf}))
