@@ -16,7 +16,7 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
   <img src="https://github.com/sandrolubis/Cross-EOF-Eddy-Feedback-Model/blob/main/example/one_point_lag_correlation_map.png" width="500">
 </p>
 
-## The basic assumptions of our model are:
+## The basic assumptions of the model:
 1. A linear representation of the feedbacks is sufficient
 2. The eddy forcing m does not have long-term memory independent of the variability in the jet (represented by <img src="https://render.githubusercontent.com/render/math?math=z_1"> and <img src="https://render.githubusercontent.com/render/math?math=z_2">)
 
