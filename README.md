@@ -19,6 +19,8 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
 
 5. cal_tau_LH01.ncl includes the codes to calculate damping time scale following Appendix A, Lorenz and Hartmann (2001).
 
+6. cal_cross_spectrum_LH01.ncl includes the codes to calculate cross-spectrum following Lorenz and Hartmann (2001).
+
 
 ## The basic assumptions of the model:
 1. A linear representation of the feedbacks is sufficient
