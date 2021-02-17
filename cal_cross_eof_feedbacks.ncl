@@ -49,7 +49,7 @@ m1 = m(0, :)
 m2 = m(1, :)
 
 
-;;;;;;;;;;;;;;;;;;;;;; Calculating cross-EOF Eddy Feedbacks ;;;;;;;;;;;;;;;;;;;;;; 
+;;;;;;;;;;;;;;;;;;;;;; Calculate cross-EOF Eddy Feedbacks ;;;;;;;;;;;;;;;;;;;;;; 
 
 maxlag = 20
 
