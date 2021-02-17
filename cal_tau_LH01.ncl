@@ -1,3 +1,8 @@
+; Author: Dr. Sandro Lubis (Jan 2020)
+;         Calculating a damping time scale 
+;         following Lorenz and Hartmann (2001, Appendix A).
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 begin
 
 print("Reading the input file...")
