@@ -17,7 +17,7 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
   <img src="https://github.com/sandrolubis/Cross-EOF-Eddy-Feedback-Model/blob/main/example/one_point_lag_correlation_map.png" width="500">
 </p>
 
-5. cal_tau_LH01.ncl includes the codes to calculate damping time scale folloing Appendix A, Lorenz and Hartmann (2001).
+5. cal_tau_LH01.ncl includes the codes to calculate damping time scale following Appendix A, Lorenz and Hartmann (2001).
 
 
 ## The basic assumptions of the model:
