@@ -22,6 +22,11 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
 6. cal_cross_spectrum_LH01.ncl includes the codes to calculate cross-spectrum following Lorenz and Hartmann (2001).
 
 
+<p align="center">
+  <img src="https://github.com/sandrolubis/Cross-EOF-Eddy-Feedback-Model/blob/main/example/cross_spectrum_LH01.png" width="250">
+</p>
+
+
 ## The basic assumptions of the model:
 1. A linear representation of the feedbacks is sufficient
 2. The eddy forcing <img src="https://render.githubusercontent.com/render/math?math=m"> does not have long-term memory independent of the variability in the jet (represented by <img src="https://render.githubusercontent.com/render/math?math=z_1"> and <img src="https://render.githubusercontent.com/render/math?math=z_2">)
