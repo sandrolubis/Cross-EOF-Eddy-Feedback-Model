@@ -152,7 +152,7 @@ phase_diff(1, :) = atan(tau * omega) * rad
 
 print("Plotting...")
 
-wks = gsn_open_wks("pdf", "cross_spectrum_LH01")
+wks = gsn_open_wks("x11", "cross_spectrum_LH01")
 plot = new(3, graphic)
 
 res = True
