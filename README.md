@@ -23,7 +23,7 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
 
 
 <p align="center">
-  <img src="https://github.com/sandrolubis/Cross-EOF-Eddy-Feedback-Model/blob/main/example/cross_spectrum_LH01.png" width="250">
+  <img src="https://github.com/sandrolubis/Cross-EOF-Eddy-Feedback-Model/blob/main/example/cross_spectrum_LH01.png" width="300">
 </p>
 
 
