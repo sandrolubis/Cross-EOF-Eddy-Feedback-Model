@@ -28,6 +28,8 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
   <img src="https://github.com/sandrolubis/Cross-EOF-Eddy-Feedback-Model/blob/main/example/ccr_erainterim_full_grid.png" width="500">
 </p>
 
+Lagged-correlation analysis for the Southern Hemisphere, calculated from year-round ERA-Interim data. (a) Autocorrelations of z1(blue) and z2(red), (b) cross-correlation z1 z2, (c) cross-correlation m1 z1, (d) cross-correlation m2 z2, (e) cross-correlation m1 z2, and (f) cross-correlation m2 z1 at different lags. The two leading EOFs contribute to 45.1% and 23.2% of the total variance, respectively. The e-folding decorrelation time scales of z1 and z2 are 10.3 and 8.1 days, respectively. Gray shading represents 5% significance level according to the test of Bartlett.
+
 ## The basic assumptions of the model:
 1. A linear representation of the feedbacks is sufficient
 2. The eddy forcing <img src="https://render.githubusercontent.com/render/math?math=m"> does not have long-term memory independent of the variability in the jet (represented by <img src="https://render.githubusercontent.com/render/math?math=z_1"> and <img src="https://render.githubusercontent.com/render/math?math=z_2">)
