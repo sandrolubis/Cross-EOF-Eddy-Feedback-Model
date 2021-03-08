@@ -21,6 +21,12 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
 
 6. cal_cross_spectrum_LH01.ncl includes the codes to calculate cross-spectrum following Lorenz and Hartmann (2001).
 
+7. cal_cross_mz.ncl includes the codes to calculate autocorrelation between z1 and z2 and cross-correlations between m and z.
+
+
+<p align="center">
+  <img src="https://github.com/sandrolubis/Cross-EOF-Eddy-Feedback-Model/blob/main/example/ccr_erainterim_full_grid.png" width="500">
+</p>
 
 ## The basic assumptions of the model:
 1. A linear representation of the feedbacks is sufficient
