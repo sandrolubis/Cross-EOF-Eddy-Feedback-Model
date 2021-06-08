@@ -35,3 +35,22 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
 2. The eddy forcing <img src="https://render.githubusercontent.com/render/math?math=m"> does not have long-term memory independent of the variability in the jet (represented by <img src="https://render.githubusercontent.com/render/math?math=z_1"> and <img src="https://render.githubusercontent.com/render/math?math=z_2">)
 
 The second assumption means that at sufficiently large positive lags (beyond the timescales over which there is significant autocorrelation in <img src="https://render.githubusercontent.com/render/math?math=\tilde{m}">) the feedback component of the eddy forcing will dominate the <img src="https://render.githubusercontent.com/render/math?math=m_jz_k"> cross correlations, i.e., <img src="https://render.githubusercontent.com/render/math?math=reg_l(\tilde{m}_j,z_k) \approx 0"> at "large-enough" positive lags. Note that one cannot use a lag that is too long because then <img src="https://render.githubusercontent.com/render/math?math=reg_l(z_j,z_j)"> would be small and inaccurate. To find the appropriate lag to use, one must look for nonzero <img src="https://render.githubusercontent.com/render/math?math=m_jz_k"> cross correlations at positive lags beyond an eddy lifetime. Here, the strengths of the individual feedbacks are averaged over positive lags of 7–14 days using ERA-Interim data.
+
+
+## Citation
+
+
+- Lubis, Sandro W., and Pedram Hassanzadeh. " An Eddy–Zonal Flow Feedback Model for Propagating Annular Modes", Journal of the Atmospheric Sciences 78, 1 (2021): 249-267, accessed Jun 8, 2021,([url](https://doi.org/10.1175/JAS-D-20-0214.1))<details><summary>BibTeX</summary><pre>
+@article { Lubis_AMS_2021,
+      author = {Sandro W. Lubis and Pedram Hassanzadeh},
+      title = {An Eddy–Zonal Flow Feedback Model for Propagating Annular Modes},
+      journal = {Journal of the Atmospheric Sciences},
+      year = {2021},
+      publisher = {American Meteorological Society},
+      address = {Boston MA, USA},
+      volume = {78},
+      number = {1},
+      doi = {10.1175/JAS-D-20-0214.1},
+      pages= {249 - 267},
+      url = "https://journals.ametsoc.org/view/journals/atsc/78/1/jas-d-20-0214.1.xml"
+}</pre></details>
