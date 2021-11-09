@@ -2,6 +2,7 @@
 ;         An eddy-zonal flow feedback model that accounts for 
 ;         the coupling of the leading two EOFs and their feedbacks
 ;         Lubis and Hassanzadeh, 2020 JAS (Section 3; Eqs. 4-10)
+;Contact: slubis.geomar@gmail.com
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
