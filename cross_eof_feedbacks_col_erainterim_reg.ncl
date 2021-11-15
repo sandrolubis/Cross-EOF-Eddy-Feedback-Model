@@ -1,3 +1,10 @@
+; Author: Dr. Sandro Lubis (Jan 2020)
+;         An eddy-zonal flow feedback model that accounts for 
+;         the coupling of the leading two EOFs and their feedbacks
+;         Lubis and Hassanzadeh, 2020 JAS (Section 3; Eqs. 4-10)
+;Contact: slubis.geomar@gmail.com
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 begin
 
 f1 = addfile("data/u.col.anom.erainterim.nc", "r")
