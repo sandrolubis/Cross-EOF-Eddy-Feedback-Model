@@ -80,34 +80,5 @@ print("b12    = " + sprintf("%8.4f", b12))
 print("b21    = " + sprintf("%8.4f", b21))
 print("b22    = " + sprintf("%8.4f", b22))
 
-tau1 = 8.3
-tau2 = 8.4
-
-sigma = -0.5 * (1.0 / tau1 + 1.0 / tau2 - b11 - b22)
-
-D = ((1.0 / tau1 - 1.0 / tau2) - (b11 - b22)) ^ 2.0 + 4.0 * b12 * b21
-
-pi = acos(-1.0)
-
-if (D.ge.0) then
-	omega = 0.5 * sqrt(D)
-	
-	sigma1 = sigma + omega
-	sigma2 = sigma - omega
-	
-	sigma1 = -1.0 / sigma1
-	sigma2 = -1.0 / sigma2
-	
-	print("sigma1 = " + sprintf("%8.4f", sigma1))
-	print("sigma2 = " + sprintf("%8.4f", sigma1))
-else
-	omega = 0.5 * sqrt(-1.0 * D)
-	
-	sigma = -1.0 / sigma
-	omega = 2.0 * pi / omega
-	
-	print("sigma  = " + sprintf("%8.4f", sigma))
-	print("omega  = " + sprintf("%8.4f", omega))
-end if
 
 end
