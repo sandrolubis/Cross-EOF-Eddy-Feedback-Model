@@ -28,7 +28,7 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
   <img src="https://github.com/sandrolubis/Cross-EOF-Eddy-Feedback-Model/blob/main/example/ccr_erainterim_full_grid_new.png" width="500">
 </p>
 
-[**Figure 1**] Lagged-correlation analysis for the Southern Hemisphere, calculated from year-round ERA-Interim data. (a) Autocorrelations of $z_1$ (blue) and $z_2$ (red), (b) cross-correlation z1 z2, (c) cross-correlation $m_1 z_1$, (d) cross-correlation $m_2 z_2$, (e) cross-correlation $m_1 z_2$, and (f) cross-correlation $m2 z1$ at different lags. The two leading EOFs contribute to 45.1% and 23.2% of the total variance, respectively. The e-folding decorrelation time scales of z1 and z2 are 10.3 and 8.1 days, respectively. Gray shading represents 5% significance level according to the test of Bartlett.
+[**Figure 1**] Lagged-correlation analysis for the Southern Hemisphere, calculated from year-round ERA-Interim data. (a) Autocorrelations of $z_1$ (blue) and $z_2$ (red), (b) cross-correlation $z_1 z_2$, (c) cross-correlation $m_1 z_1$, (d) cross-correlation $m_2 z_2$, (e) cross-correlation $m_1 z_2$, and (f) cross-correlation $m_2 z_1$ at different lags. The two leading EOFs contribute to 45.1% and 23.2% of the total variance, respectively. The e-folding decorrelation time scales of $z_1$ and $z_2$ are 10.3 and 8.1 days, respectively. Gray shading represents 5% significance level according to the test of Bartlett.
 
 ## The basic assumptions of the model:
 1. A linear representation of the feedbacks is sufficient
