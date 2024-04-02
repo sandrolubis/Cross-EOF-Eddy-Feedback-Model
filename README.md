@@ -6,7 +6,7 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
 
 1. Data folder includes the netcdf files of vertically averaged zonal mean zonal wind (u.col.anom.erainterim.nc) and vertically averaged eddy momentum flux convergence (duepy.col.anom.erainterim.nc), from ERA-Interim with the period of 1979-2013.
 
-2. cal_cross_eof_feedbacks.ncl includes the codes to calculate single-EOF feedbacks (<img src="https://render.githubusercontent.com/render/math?math=b_{11}"> and <img src="https://render.githubusercontent.com/render/math?math=b_{22}">) and cross-EOF feedbacks (<img src="https://render.githubusercontent.com/render/math?math=b_{12}"> and <img src="https://render.githubusercontent.com/render/math?math=b_{21}">) from Eqs. (9) and (10) in Lubis and Hassanzadeh (2021).
+2. cal_cross_eof_feedbacks.ncl includes the codes to calculate single-EOF feedbacks ($b_{11}$) and ($b_{22}$) and cross-EOF feedbacks ($b_{12}$) and ($b_{21}$) from Eqs. (9) and (10) in Lubis and Hassanzadeh (2021).
 
 3. cal_cross_eof_feedbacks.ncl also includes the codes to calculate the periodicity (frequency) and decay time scale of the annular modes from the theory (see Eqs. (23) and (24) in Lubis and Hassanzadeh (2021)).
 
@@ -32,7 +32,7 @@ Lubis, S. W., & Hassanzadeh, P. (2021). An Eddy–Zonal Flow Feedback Model for 
 
 ## The basic assumptions of the model:
 1. A linear representation of the feedbacks is sufficient
-2. The eddy forcing $m$ does not have long-term memory independent of the variability in the jet (represented by $z_1$ and $z_2$
+2. The eddy forcing $m$ does not have long-term memory independent of the variability in the jet (represented by $z_1$ and $z_2$)
 
 The second assumption means that at sufficiently large positive lags (beyond the timescales over which there is significant autocorrelation in $\tilde{m}$ the feedback component of the eddy forcing will dominate the $m_jz_k$ cross correlations, i.e., $reg_l(\tilde{m}_j,z_k \approx 0$ at "large-enough" positive lags. Note that one cannot use a lag that is too long because then $reg_l(z_j,z_j)$ would be small and inaccurate. To find the appropriate lag to use, one must look for nonzero $m_jz_k$ cross correlations at positive lags beyond an eddy lifetime. Here, the strengths of the individual feedbacks are averaged over positive lags of 7–14 days using ERA-Interim data.
 
